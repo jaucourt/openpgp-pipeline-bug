@@ -1,0 +1,22 @@
+{
+  "name": "openpgp-pipeline-bug",
+  "version": "1.0.0",
+  "description": "Demonstrate issue with using pipeline function in conjunction with OpenPGP stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jaucourt/openpgp-pipeline-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaucourt/openpgp-pipeline-bug/issues"
+  },
+  "homepage": "https://github.com/jaucourt/openpgp-pipeline-bug#readme",
+  "dependencies": {
+    "openpgp": "^5.2.1"
+  }
+}
