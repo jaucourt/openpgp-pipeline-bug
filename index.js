@@ -13,6 +13,7 @@ const encrypted = await openpgp.encrypt({
 });
 const ws = fs.createWriteStream(`${fileToEncrypt}.enc`);
 pipeline(encrypted, ws, (err, val) => {
+  // this is never called, no matter what
   console.log('file written', err, val)
 });
 // finished(encrypted, (err) => { // this won't be called
