@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jaucourt/openpgp-pipeline-bug#readme",
   "dependencies": {
-    "openpgp": "^5.2.1"
+    "openpgp": "5.0.0-1"
   },
   "type": "module"
 }
